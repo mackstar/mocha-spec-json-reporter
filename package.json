@@ -1,0 +1,38 @@
+{
+  "name": "mocha-spec-json-reporter",
+  "description": "A mocha reporter to allow JSON output",
+  "keywords": [
+    "mocha",
+    "JSON",
+    "spec",
+    "reporter",
+    "Should IT?",
+    "ci"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "author": {
+    "name": "Richard McIntyre",
+    "email": "richard.mackstar@gmail.com",
+    "web": "http://www.mackstar.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mackstar/mocha-spec-json-reporter.git"
+  },
+  "main": "lib/spec-json-reporter.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "mocha": ">=1.17.1",
+    "assert": "~1.1.1",
+    "sinon": "~1.10.0"
+  }
+}
